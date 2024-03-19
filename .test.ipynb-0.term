@@ -1,0 +1,209 @@
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls
+Worksheet.ipynb  quivers.sage  test.ipynb
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ sage
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 9.7, Release Date: 2022-09-19                     │
+│ Using Python 3.10.5. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+[22;0t]0;IPython: user/FiniteNonForks[6n[?2004h[?1l[?25l[0m[?7l[0m[J[0;94msage: [6D[6C[?7h[0m[?12l[?25h[?25l[?7l[6D[0;94msage: [0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m [47A[6C[?7h[0m[?12l[?25h[?25l[?7l[0mi[0;38;5;241mf(len(nonforks) == 2):[22D[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[0ml[0;38;5;241moad("quivers.sage")[19D[?7h[0m[?12l[?25h[?25l[?7l[0mo[?7h[0m[?12l[?25h[?25l[?7l[0ma[?7h[0m[?12l[?25h[?25l[?7l[0m
+[9C[0;38;5;16;48;5;250m load             %load_ext        loads           [0m
+[9C[0;38;5;16;48;5;250m load_attach_mode load_session                     [0m
+[9C[0;38;5;16;48;5;250m load_attach_path %loadpy                          [3A[51D[?7h[0m[?12l[?25h[?25l[?7l[0md[0;38;5;16;48;5;152m([0;38;5;160;48;5;231m"quivers.sage"[0;38;5;16;48;5;152m)[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[3A[25C[?7h[0m[?12l[?25h[?25l[?7l[26D[0m[J[0;94msage: [0mload([0;38;5;160;48;5;231m"quivers.sage"[0m)[26D[0m
+[J[?7h[0m[?12l[?25h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;94msage: [6D[6C[?7h[0m[?12l[?25h[?25l[?7l[6D[0;94msage: [0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m [46A[6C[?7h[0m[?12l[?25h]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ 
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ python --version
+Python 3.8.10
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ sage --version
+SageMath version 9.7, Release Date: 2022-09-19
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ i[Ksage
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 9.7, Release Date: 2022-09-19                     │
+│ Using Python 3.10.5. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+[22;0t]0;IPython: user/FiniteNonForks[6n[?2004h[?1l[?25l[0m[?7l[0m[J[0;94msage: [6D[6C[?7h[0m[?12l[?25h[?25l[?7l[6D[0;94msage: [0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m [36A[6C[?7h[0m[?12l[?25h[?25l[?7l[0mM[0;38;5;241m = matrix(([0,2,0,2],[-2,0,2,0],[0,-2,0,2],[-2,0,-2,0]))[56D[?7h[0m[?12l[?25h[?25l[?7l[0ma[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0mt[?7h[0m[?12l[?25h[?25l[?7l[0mr[?7h[0m[?12l[?25h[?25l[?7l[0mi[?7h[0m[?12l[?25h[?25l[?7l[0mx[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;124;48;5;188m?[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;124;48;5;188m?[?7h[0m[?12l[?25h[?25l[?7l[14D[0m[J[0;94msage: [0mMatrix[0;38;5;124;48;5;188m??[14D[0m
+[J[?7h[0m[?12l[?25h[?2004l[?1049h[22;0;0t[?1h=[0;31mSignature:[0m      [0mMatrix[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwds[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m[m
+[0;31mCall signature:[0m [0mMatrix[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m[m
+[0;31mType:[0m           cython_function_or_method[m
+[0;31mString form:[0m    <cyfunction matrix at 0x7ff6d45601e0>[m
+[0;31mFile:[0m           /ext/sage/9.7/src/sage/matrix/constructor.pyx[m
+[0;31mSource:[0m        [m
+[0;32mdef[0m [0mmatrix[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwds[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[m
+[0;34m[0m    [0;34m"""[0m[m
+[0;34m    Create a matrix.[0m[m
+[0;34m[0m[m
+[0;34m    This implements the ``matrix`` constructor::[0m[m
+[0;34m[0m[m
+[0;34m        sage: matrix([[1,2],[3,4]])[0m[m
+[0;34m        [1 2][0m[m
+[0;34m        [3 4][0m[m
+[0;34m[0m[m
+[0;34m    It also contains methods to create special types of matrices, see[0m[m
+[0;34m    ``matrix.[tab]`` for more options. For example::[0m[m
+[0;34m[0m[m
+[0;34m        sage: matrix.identity(2)[0m[m
+[0;34m        [1 0][0m[m
+[0;34m        [0 1][0m[m
+[0;34m[0m[m
+[0;34m    INPUT:[0m[m
+[0;34m[0m[m
+[0;34m    The matrix command takes the entries of a matrix, optionally[0m[m
+[0;34m    preceded by a ring and the dimensions of the matrix, and returns a[0m[m
+[0;34m    matrix.[0m[m
+[0;34m[0m[m
+[0;34m    The entries of a matrix can be specified as a flat list of[0m[m
+[0;34m    elements, a list of lists (i.e., a list of rows), a list of Sage[0m[m
+[0;34m    vectors, a callable object, or a dictionary having positions as[0m[m
+[0;34m    keys and matrix entries as values (see the examples). If you pass[0m[m
+[0;34m    in a callable object, then you must specify the number of rows and[0m[m
+[0;34m    columns. You can create a matrix of zeros by passing an empty list[0m[m
+[0;34m    or the integer zero for the entries.  To construct a multiple of[0m[m
+[0;34m    the identity (`cI`), you can specify square dimensions and pass in[0m[m
+[0;34m    `c`. Calling matrix() with a Sage object may return something that[0m[m
+[0;34m    makes sense. Calling matrix() with a NumPy array will convert the[0m[m
+[0;34m    array to a matrix.[0m[m
+[0;34m[0m[m
+[0;34m    All arguments (even the positional) are optional.[0m[m
+[0;34m[0m[m
+[0;34m    Positional and keyword arguments:[0m[m
+[0;34m[0m[m
+[0;34m    - ``ring`` -- parent of the entries of the matrix (despite the[0m[m
+[0;34m      name, this is not a priori required to be a ring). By default,[0m[m
+[0;34m      determine this from the given entries, falling back to ``ZZ`` if[0m[m
+[0;34m      no entries are given.[0m[m
+[0;34m[0m[m
+[0;34m    - ``nrows`` -- the number of rows in the matrix.[0m[m
+[0;34m[0m[m
+[0;34m    - ``ncols`` -- the number of columns in the matrix.[0m[m
+[0;34m[0m[m
+:[K
