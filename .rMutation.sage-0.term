@@ -97,4 +97,115 @@ rm: cannot remove 'ssh_key': No such file or directory
 ]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls
  [0m[01;31m2024-03-18-archive-1.zip[0m  'Construction Testing Ground.ipynb'   quivers.sage     test.ipynb
  [01;31m2024-03-20-archive-1.zip[0m   Worksheet.ipynb                      rMutation.sage
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git status
+On branch main
+Your branch is ahead of 'origin/master' by 7 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .quivers.sage-0.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.rMutation.sage-0.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git aff [K[K[Kdd .
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git vom[K[K[Kcommiy [K[Kt -m "FIc[K[Kixed Cone[Knection"
+[main b2a3e4f] Fixed Connection
+ 2 files changed, 190 insertions(+), 1 deletion(-)
+ create mode 100644 .rMutation.sage-0.term
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:master
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+To choose either option permanently, see push.default in 'git help config'.
 ]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ 
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git push origin HEAD: m[K[Kmaster
+Enumerating objects: 44, done.
+Counting objects:   2% (1/44)Counting objects:   4% (2/44)Counting objects:   6% (3/44)Counting objects:   9% (4/44)Counting objects:  11% (5/44)Counting objects:  13% (6/44)Counting objects:  15% (7/44)Counting objects:  18% (8/44)Counting objects:  20% (9/44)Counting objects:  22% (10/44)Counting objects:  25% (11/44)Counting objects:  27% (12/44)Counting objects:  29% (13/44)Counting objects:  31% (14/44)Counting objects:  34% (15/44)Counting objects:  36% (16/44)Counting objects:  38% (17/44)Counting objects:  40% (18/44)Counting objects:  43% (19/44)Counting objects:  45% (20/44)Counting objects:  47% (21/44)Counting objects:  50% (22/44)Counting objects:  52% (23/44)Counting objects:  54% (24/44)Counting objects:  56% (25/44)Counting objects:  59% (26/44)Counting objects:  61% (27/44)Counting objects:  63% (28/44)Counting objects:  65% (29/44)Counting objects:  68% (30/44)Counting objects:  70% (31/44)Counting objects:  72% (32/44)Counting objects:  75% (33/44)Counting objects:  77% (34/44)Counting objects:  79% (35/44)Counting objects:  81% (36/44)Counting objects:  84% (37/44)Counting objects:  86% (38/44)Counting objects:  88% (39/44)Counting objects:  90% (40/44)Counting objects:  93% (41/44)Counting objects:  95% (42/44)Counting objects:  97% (43/44)Counting objects: 100% (44/44)Counting objects: 100% (44/44), done.
+Delta compression using up to 4 threads
+Compressing objects:   2% (1/43)Compressing objects:   4% (2/43)Compressing objects:   6% (3/43)Compressing objects:   9% (4/43)Compressing objects:  11% (5/43)Compressing objects:  13% (6/43)Compressing objects:  16% (7/43)Compressing objects:  18% (8/43)Compressing objects:  20% (9/43)Compressing objects:  23% (10/43)Compressing objects:  25% (11/43)Compressing objects:  27% (12/43)Compressing objects:  30% (13/43)Compressing objects:  32% (14/43)Compressing objects:  34% (15/43)Compressing objects:  37% (16/43)Compressing objects:  39% (17/43)Compressing objects:  41% (18/43)Compressing objects:  44% (19/43)Compressing objects:  46% (20/43)Compressing objects:  48% (21/43)Compressing objects:  51% (22/43)Compressing objects:  53% (23/43)Compressing objects:  55% (24/43)Compressing objects:  58% (25/43)Compressing objects:  60% (26/43)Compressing objects:  62% (27/43)Compressing objects:  65% (28/43)Compressing objects:  67% (29/43)Compressing objects:  69% (30/43)Compressing objects:  72% (31/43)Compressing objects:  74% (32/43)Compressing objects:  76% (33/43)Compressing objects:  79% (34/43)Compressing objects:  81% (35/43)Compressing objects:  83% (36/43)Compressing objects:  86% (37/43)Compressing objects:  88% (38/43)Compressing objects:  90% (39/43)Compressing objects:  93% (40/43)Compressing objects:  95% (41/43)Compressing objects:  97% (42/43)Compressing objects: 100% (43/43)Compressing objects: 100% (43/43), done.
+Writing objects:   2% (1/44)Writing objects:   4% (2/44)Writing objects:   6% (3/44)Writing objects:   9% (4/44)Writing objects:  11% (5/44)Writing objects:  13% (6/44)Writing objects:  15% (7/44)Writing objects:  18% (8/44)Writing objects:  20% (9/44)Writing objects:  22% (10/44)Writing objects:  29% (13/44)Writing objects:  31% (14/44)Writing objects:  34% (15/44)Writing objects:  36% (16/44)Writing objects:  38% (17/44)Writing objects:  40% (18/44)Writing objects:  43% (19/44)Writing objects:  45% (20/44)Writing objects:  47% (21/44)Writing objects:  50% (22/44)Writing objects:  52% (23/44)Writing objects:  54% (24/44)Writing objects:  56% (25/44)Writing objects:  59% (26/44)Writing objects:  61% (27/44)Writing objects:  63% (28/44)Writing objects:  65% (29/44)Writing objects:  68% (30/44)Writing objects:  70% (31/44)Writing objects:  72% (32/44)Writing objects:  75% (33/44)Writing objects:  77% (34/44)Writing objects:  79% (35/44)Writing objects:  81% (36/44)Writing objects:  84% (37/44)Writing objects:  86% (38/44)Writing objects:  88% (39/44)Writing objects:  90% (40/44)Writing objects:  93% (41/44)Writing objects:  95% (42/44)Writing objects:  97% (43/44)Writing objects: 100% (44/44)Writing objects: 100% (44/44), 1.94 MiB | 12.76 MiB/s, done.
+Total 44 (delta 17), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/17)[Kremote: Resolving deltas:   5% (1/17)[Kremote: Resolving deltas:  11% (2/17)[Kremote: Resolving deltas:  17% (3/17)[Kremote: Resolving deltas:  23% (4/17)[Kremote: Resolving deltas:  29% (5/17)[Kremote: Resolving deltas:  35% (6/17)[Kremote: Resolving deltas:  41% (7/17)[Kremote: Resolving deltas:  47% (8/17)[Kremote: Resolving deltas:  52% (9/17)[Kremote: Resolving deltas:  58% (10/17)[Kremote: Resolving deltas:  64% (11/17)[Kremote: Resolving deltas:  70% (12/17)[Kremote: Resolving deltas:  76% (13/17)[Kremote: Resolving deltas:  82% (14/17)[Kremote: Resolving deltas:  88% (15/17)[Kremote: Resolving deltas:  94% (16/17)[Kremote: Resolving deltas: 100% (17/17)[Kremote: Resolving deltas: 100% (17/17), done.[K
+remote: This repository moved. Please use the new location:[K
+remote:   git@github.com:Tucker-UA/Quivers.git[K
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/Tucker-UA/Quivers/pull/new/master[K
+remote: 
+To github.com:Tucker-UA/FiniteNonForks.git
+ * [new branch]      HEAD -> master
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git checkout main
+M	.rMutation.sage-0.term
+Already on 'main'
+Your branch is up to date with 'origin/master'.
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git checkout mainpush origin HEAD:master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:master
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+To choose either option permanently, see push.default in 'git help config'.
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git push origin Heaad[K[K[K[KEDAA[K[K[KAD
+To github.com:Tucker-UA/FiniteNonForks.git
+ [31m! [rejected]       [m HEAD -> main (fetch first)
+[31merror: failed to push some refs to 'github.com:Tucker-UA/FiniteNonForks.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git pull
+remote: Enumerating objects: 10, done.[K
+remote: Counting objects:  10% (1/10)[Kremote: Counting objects:  20% (2/10)[Kremote: Counting objects:  30% (3/10)[Kremote: Counting objects:  40% (4/10)[Kremote: Counting objects:  50% (5/10)[Kremote: Counting objects:  60% (6/10)[Kremote: Counting objects:  70% (7/10)[Kremote: Counting objects:  80% (8/10)[Kremote: Counting objects:  90% (9/10)[Kremote: Counting objects: 100% (10/10)[Kremote: Counting objects: 100% (10/10), done.[K
+remote: Compressing objects:  12% (1/8)[Kremote: Compressing objects:  25% (2/8)[Kremote: Compressing objects:  37% (3/8)[Kremote: Compressing objects:  50% (4/8)[Kremote: Compressing objects:  62% (5/8)[Kremote: Compressing objects:  75% (6/8)[Kremote: Compressing objects:  87% (7/8)[Kremote: Compressing objects: 100% (8/8)[Kremote: Compressing objects: 100% (8/8), done.[K
+Unpacking objects:  12% (1/8)Unpacking objects:  25% (2/8)Unpacking objects:  37% (3/8)Unpacking objects:  50% (4/8)remote: Total 8 (delta 0), reused 5 (delta 0), pack-reused 0[K
+Unpacking objects:  62% (5/8)Unpacking objects:  75% (6/8)Unpacking objects:  87% (7/8)Unpacking objects: 100% (8/8)Unpacking objects: 100% (8/8), 529.98 KiB | 8.03 MiB/s, done.
+From github.com:Tucker-UA/FiniteNonForks
+   73e0458..c3dcc37  main       -> origin/main
+Already up to date.
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git status
+On branch main
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .rMutation.sage-0.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls
+ [0m[01;31m2024-03-18-archive-1.zip[0m  'Construction Testing Ground.ipynb'   quivers.sage     test.ipynb
+ [01;31m2024-03-20-archive-1.zip[0m   Worksheet.ipynb                      rMutation.sage
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ rm 202[K[K[K*.zip
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls
+'Construction Testing Ground.ipynb'   Worksheet.ipynb   quivers.sage   rMutation.sage   test.ipynb
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git status
+On branch main
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .rMutation.sage-0.term[m
+	[31mdeleted:    2024-03-18-archive-1.zip[m
+	[31mdeleted:    2024-03-20-archive-1.zip[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git add 
