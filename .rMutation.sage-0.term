@@ -1,0 +1,100 @@
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ gti [K[K[Kit status
+On branch main
+Your branch is ahead of 'origin/master' by 7 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .quivers.sage-0.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.rMutation.sage-0.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"s@example.com"l@example.com"a@example.com"m@example.com"a@example.com"[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"c"r"i"m"s"o"n"."u"a"."e"d"u"[C
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): ssh_l key
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in ssh_key
+Your public key has been saved in ssh_key.pub
+The key fingerprint is:
+SHA256:3lVhjjryIvIFFTBhvAXep6wMmrJjIKM2+wWhbLdD6rk slama@crimson.ua.edu
+The key's randomart image is:
++---[RSA 4096]----+
+|     .*+.     o  |
+|     o.o..   + . |
+|   .  .oo . . o  |
+|. . . .o o . .   |
+| + +. . S o .    |
+|= +ooo + + o     |
+|=ooo..+ + o      |
+|+*. oo o .       |
+|+E=.  .          |
++----[SHA256]-----+
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ gi[K[Kls
+ [0m[01;31m2024-03-18-archive-1.zip[0m  'Construction Testing Ground.ipynb'   quivers.sage     ssh_key       test.ipynb
+ [01;31m2024-03-20-archive-1.zip[0m   Worksheet.ipynb                      rMutation.sage   ssh_key.pub
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ cd [K[K[Kcat ssh_key.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDIXpOep9FMwx85Bj8m/oPT9z559X5ROMpx6yoJis16PKkbHWCzAXJhiTK5YaLV74fVvL5rzLB69tZaOMXAJk2XcUe0HGUp5XcAiRXz/rErFQQJWR2kEHRso4Id2mksvVZM9hI+5cokMl89OMQBK3WghBUYwx9ARcVPTB35xnVNw90R9H6zheKc+H158AdSKkDKHFKTDsSv/oc8WsDAPoMCvAVZoqAtImJyIiGqDp7JONt4IXC2ygjKGDRynyI/hcWq6SBVDWrOjFTqarLhR0J3cE1lDmPFELiQGv2cSI+xak6z2JSzO3l6icExXhHNAjPaUy8BGtfGG+h1kZnxokVWzeZ9/Kg5Hw39sOmhaYQyPzxs4YKteqh4Eyif1GbQw85rj1iA/1p3KxYGoZtIWTM+GmdJIbDN+hsE0lvPogg5VEdRieuxQRfGpzxlmjq/RpQBwQHg3cTAiLaTm24olcmXCnwbQZMaRd9WPdmkZaA8F99YcgKzRxHX18tpG9jEcu3zFGBoTT0MYx9misz9qSehixn+PlBfOvsEVRJLAJ4t1b/pqnY6nLC1/dIH+zw7N6NIE3BG7r1rftZ0IKpP5O+NDP7wcxWiacMjPIuTe9y2nTRI+hfBJ5oVR6lUy8mV9vOUXjt+xOjygFNjX6Cl0+BagBiroGJypVYt/rc2NONiPQ== slama@crimson.ua.edu
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ clear
+[H[2J[3J]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls -al ~/.ssh
+total 12
+drwxr-xr-x  2 user user    7 Mar 20 19:11 [0m[01;34m.[0m
+drwxr-xr-x 10 user user   19 Mar 20 19:11 [01;34m..[0m
+-r--r--r--  1 user user  322 Mar 20 19:11 authorized_keys
+-rw-r--r--  1 user user  124 Mar 20 19:11 environment
+-rw-------  1 user user 3422 Sep 10  2022 id_rsa
+-rw-r--r--  1 user user  775 Sep 10  2022 id_rsa.pub
+-rw-r--r--  1 user user 1332 Sep 10  2022 known_hosts
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ cd ..
+]0;~[01;34m~[00m$ ls
+2022-09-09-194033.term  [0m[01;34mFiniteNonForks[0m
+]0;~[01;34m~[00m$ cd 2022-09-1[K19[K[K[K[K[K[K[K[K[K[K[K[K[Kcd user
+bash: cd: user: No such file or directory
+]0;~[01;34m~[00m$ cd user[C[C[Cls[Kcd ..[C[C[Cls -al ~/.ssh[C[C[1P ~/.ssh[1P ~/.ssh[1P ~/.ssh[1P~/.ssh[C[C[C[C[C[1P ~/.ssh[C[C[C[C[1P ~/.ssh[C[C[Cc ~/.ssh[C[C[C[Cd ~/.ssh[C[C[C[C[C[C ~/.ssh[C[1P~/.ssh[C[C[C[C[C[C[C[C[C[C[C[C
+]0;~/.ssh[01;34m~/.ssh[00m$ ls
+authorized_keys  environment  id_rsa  id_rsa.pub  known_hosts
+]0;~/.ssh[01;34m~/.ssh[00m$ cat id_rsaa[K.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDcVel4epToGsoMr/mh6yNtedb16fTcHAJHlaQQNbze61d92jBHTeGX6VCErK4lkU49AZsAu8r+VC9rcR5Nz6tC74DFAl27kn8PD6rzW9pgXncy22ElAsuzcUctIhVbcpEMSfRGvcgDYgyf7T4I1GfOBCTsnHyJTfTpy5RKppOCLax724zHfkCGpyBjhqfwJd6lAeAhzKKenIiQvqhO95dUQEeZJKQ60DqaWTsGNnhpVGufUbCAy1ovq/NRA8mV2QfrzDlShrLqWavd+gQEFk+X6p7FwrcmVzbtpGutktXfNvA7EOn5C76AmVcMGaV6LqANgk5D/Acz4xVrXGpyw8ASUhL8MP/SkZeKqvYiIUVikiP2K+AKFcZgEZAlD+VXr9LLAj1hvNhi40oKRNF6o4Cd3zBSA8sXtoropjDh+frN9GabcjCcVpAKVQ6AYWeyTgGhjknO8UarLdwyE56KQzXwHDddFSUJI+VNMFVotik5vK46tylycOImS7fVr2o2Yynr+EUpkM+WIpfsD4ueReRvRweMkdDpfHc7mn0qnIgpYWUfbhicnZuHaMAuVsqY/Uow+KMCXiwW/E2q5O8FpFb+0q+YHel61V0OI3HWigY5d/Z1D17CrQbEQnpO0e2MmcRBuOTsvSwu1XupvDej5N1MQXcrRInLvuDcsp0qgG02Jw== user@project-6d492194-bced-4aa2-b0cc-23f77ccf5ac4
+]0;~/.ssh[01;34m~/.ssh[00m$ cd [K[K[Kls
+authorized_keys  environment  id_rsa  id_rsa.pub  known_hosts
+]0;~/.ssh[01;34m~/.ssh[00m$ cd ..
+]0;~[01;34m~[00m$ cd[K[Kls
+2022-09-09-194033.term  [0m[01;34mFiniteNonForks[0m
+]0;~[01;34m~[00m$ cd finitw[Ke[K[K[K[K[K[K[K FiniteNOnForks
+bash: cd: FiniteNOnForks: No such file or directory
+]0;~[01;34m~[00m$ cd FiniteNOnForks[1PnForksonForks[C[C[C[C[C[C
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ssh -T git@github.com
+Hi slama0077! You've successfully authenticated, but GitHub does not provide shell access.
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls[K[Kcd [K[K[Kgit stati[Kus
+On branch main
+Your branch is ahead of 'origin/master' by 7 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .quivers.sage-0.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.rMutation.sage-0.term[m
+	[31mssh_key[m
+	[31mssh_key.pub[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ rm ssh_l[Kkey, ssh_key.pub
+rm: cannot remove 'ssh_key,': No such file or directory
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ rm ssh_key, ssh_key.pub[1Pssh_key.pub[1Pssh_key.pub ssh_key.pub[C[C[C[C[C[C[C[C[C[C[C
+rm: cannot remove 'ssh_key.pub': No such file or directory
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ rm ssh_key ssh_key.pub[K[K[K[K[K[K[K[K[K[K[K[K[Ky
+rm: cannot remove 'ssh_key': No such file or directory
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls
+ [0m[01;31m2024-03-18-archive-1.zip[0m  'Construction Testing Ground.ipynb'   quivers.sage     test.ipynb
+ [01;31m2024-03-20-archive-1.zip[0m   Worksheet.ipynb                      rMutation.sage
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ 
