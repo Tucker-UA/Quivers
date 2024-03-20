@@ -68,4 +68,36 @@ Changes not staged for commit:
 	[31mmodified:   .quivers.sage-0.term[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git add .
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git status
+On branch main
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   .Construction Testing Ground.ipynb.sage-jupyter2[m
+	[32mmodified:   .quivers.sage-0.term[m
+
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git commm[Kit -m "N[KTweaks"
+[main 7184c11] Tweaks
+ 2 files changed, 24 insertions(+), 2 deletions(-)
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git push [K
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:master
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+To choose either option permanently, see push.default in 'git help config'.
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git ls-remote [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git ls-remote [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git ls-remote --heads origin
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 ]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ g
