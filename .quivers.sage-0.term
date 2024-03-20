@@ -100,4 +100,202 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ g
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git stats[Kus
+On branch main
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .quivers.sage-0.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git add .
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git commit -m "ll"
+[main 1d92026] ll
+ 1 file changed, 32 insertions(+)
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git pus [Kh orohin [K[K[K[K[Kigin Hea[K[KEAD
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git config --ed[K[K[Ke
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;42H(B[0;7m[ Reading... ](B[m[34;41H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 6.2                  /home/user/FiniteNonForks/.git/config                            [1;96H(B[m[35d(B[0;7m^G(B[m Help[35;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[35;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[36;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[36;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line[2d(B[0;1m[32m[core][3;8H(B[0m[38;5;208m[1K [39m(B[mrepositoryformatversion = 0[4;8H[38;5;208m[1K [39m(B[mfilemode = true[5;8H[38;5;208m[1K [39m(B[mbare = false[6;8H[38;5;208m[1K [39m(B[mlogallrefupdates = true[7d(B[0;1m[32m[remote "origin"][8;8H(B[0m[38;5;208m[1K [39m(B[murl = git@github.com:Tucker-UA/FiniteNonForks.git[9;8H[38;5;208m[1K [39m(B[mfetch = +refs/heads/*:refs/remotes/origin/*[10d(B[0;1m[32m[branch "main"][11;8H(B[0m[38;5;208m[1K [39m(B[mremote = origin[12;8H[38;5;208m[1K [39m(B[mmerge = refs/heads/master[2d[?12l[?25h[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ clear
+[H[2J[3J]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): ssh_key
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in ssh_key
+Your public key has been saved in ssh_key.pub
+The key fingerprint is:
+SHA256:/0rHq4gf0Qu1Z6mcxJStToBZe4QzEcgug0+anoVxI2w your_email@example.com
+The key's randomart image is:
++---[RSA 4096]----+
+|     . .++.      |
+|      o++o o     |
+| . . .o oo= .    |
+|  E * .  B o .   |
+| . X +  S B +    |
+|  + o    O B     |
+| . o    . O o    |
+|  o    . + o .   |
+|      ..o ooo    |
++----[SHA256]-----+
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls
+ [0m[01;31m2024-03-18-archive-1.zip[0m             Worksheet.ipynb   rMutation.sage   ssh_key.pub
+'Construction Testing Ground.ipynb'   quivers.sage      ssh_key          test.ipynb
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ cat ssg[Kh_key
+-----BEGIN OPENSSH PRIVATE KEY-----
+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
+-----END OPENSSH PRIVATE KEY-----
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls
+ [0m[01;31m2024-03-18-archive-1.zip[0m             Worksheet.ipynb   rMutation.sage   ssh_key.pub
+'Construction Testing Ground.ipynb'   quivers.sage      ssh_key          test.ipynb
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ re[Km ssh_key
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git stt[Katis[K[Kus
+On branch main
+Your branch is ahead of 'origin/master' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .quivers.sage-0.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mssh_key.pub[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): ^C
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ssh-keygen -t rsa -b 4096 -C slm[K[K[K"slama@crimson.ua.edu"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): ssh_key
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in ssh_key
+Your public key has been saved in ssh_key.pub
+The key fingerprint is:
+SHA256:igSOKOkVM284i+fDj7i2ueJCbdTJ9LdO8krIXPP8Ai0 slama@crimson.ua.edu
+The key's randomart image is:
++---[RSA 4096]----+
+|                 |
+|     .           |
+|  .++ o          |
+|.+ o*+ . .       |
+|= ++.o oS .      |
+|o.o+*.oE++       |
+|.ooo.+..Bo       |
+|o.=o. .  +.      |
+|=B+oo. .. ..     |
++----[SHA256]-----+
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls
+ [0m[01;31m2024-03-18-archive-1.zip[0m             Worksheet.ipynb   rMutation.sage   ssh_key.pub
+'Construction Testing Ground.ipynb'   quivers.sage      ssh_key          test.ipynb
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ cat ssh_key
+-----BEGIN OPENSSH PRIVATE KEY-----
+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
+-----END OPENSSH PRIVATE KEY-----
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ cat ssh_key.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCIz0Q70CNNJNLV9O/PhAp99CM1TAsWy/8ixXSOaM1qcL3nzP+ocCeM7spRGF3RHm0oRVIvZPfWAGtCU1md5JIkY3eoZ9CTdhxnPuqqNqxU88gzmtPjANhiBfnV+gF0QyuXn3W6cV/VzSQ8gNEYY65hherm7IH8C8RLHAYpM63nnvv+TD4CuMrU9Lw9rv9tu+2gImJlccifQ2qYkfdI7Wr+mnq+ZICdl4z8c8OuPgUtwQG5eQo+B4YJ4Zm0/nX3BqICw2QH4yDTMW1gG78qRMePb4NdxEOc/M4Ck4D9dMaA4hi5bsYHY2Zd7K1DfyiRFUm5Hriz07ZZ08b3kRgATUQ87xmbrZa75epllXPlOQOp4CBHMh1gW9JDbFotGyFvqPsdzxW8R8g1Xw74yzXhihxjMLV9JLoyQ06xVsQ9g1MzAQy4zlJGdQx28lqWO52FzPgoRjTL9EgUUTZYK0KfyfMKu7l4bh55BIUyqC5B5RlPGkdGwgNUYXTU38OBMwtkUOzBbcEy+xw7yBAvxt86qPd/j0dZSuivtJa/ye6V8i+CmY5R86LuQCxgOM2qNuOExjXRhxS47zR7nD+Bb7kDpcP64N5KuHwS+cZ/bpQq4ev1aI5O2Oxl5vc6E54rfLKq9O+99WdsxlOGfOMCcHCgIcxg80BDVlH1qk3WcXG+8yWbFw== slama@crimson.ua.edu
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls
+ [0m[01;31m2024-03-18-archive-1.zip[0m             Worksheet.ipynb   rMutation.sage   ssh_key.pub
+'Construction Testing Ground.ipynb'   quivers.sage      ssh_key          test.ipynb
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls[K[Krm s
