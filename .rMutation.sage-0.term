@@ -208,4 +208,278 @@ Changes not staged for commit:
 	[31mdeleted:    2024-03-20-archive-1.zip[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git add 
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git add .
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ f[Kgit status
+On branch main
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   .rMutation.sage-0.term[m
+	[32mdeleted:    2024-03-18-archive-1.zip[m
+	[32mdeleted:    2024-03-20-archive-1.zip[m
+
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git commit -m "Rm[Kemove[Ked zip Files"
+[main f9b024b] Removed zip Files
+ 3 files changed, 112 insertions(+), 1 deletion(-)
+ delete mode 100644 2024-03-18-archive-1.zip
+ delete mode 100644 2024-03-20-archive-1.zip
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:master
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+To choose either option permanently, see push.default in 'git help config'.
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git push origin HEAD:[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit brancj[Kh
+[?1h=* [32mmain[m[m
+[K[?1l>]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git confie[K=[Kg -edi[K[K[K-edit
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;47r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[45;57H(B[0;7m[ Reading... ](B[m[45;56H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 6.2                                 /home/user/FiniteNonForks/.git/config                                           [1;126H(B[m[46d(B[0;7m^G(B[m Help[46;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[46;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[47d(B[0;7m^X(B[m Exit[47;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[32m[core][3;8H(B[0m[38;5;208m[1K [39m(B[mrepositoryformatversion = 0[4;8H[38;5;208m[1K [39m(B[mfilemode = true[5;8H[38;5;208m[1K [39m(B[mbare = false[6;8H[38;5;208m[1K [39m(B[mlogallrefupdates = true[7d(B[0;1m[32m[remote "origin"][8;8H(B[0m[38;5;208m[1K [39m(B[murl = git@github.com:Tucker-UA/FiniteNonForks.git[9;8H[38;5;208m[1K [39m(B[mfetch = +refs/heads/*:refs/remotes/origin/*[10d(B[0;1m[32m[branch "main"][11;8H(B[0m[38;5;208m[1K [39m(B[mremote = origin[12;8H[38;5;208m[1K [39m(B[mmerge = refs/heads/master[2d[?12l[?25h[?25l[45;35H(B[0;7m[ line  1/12 ( 8%), col  1/ 7 ( 14%), char   0/266 ( 0%) ](B[m[?12l[?25h[2d[?25l[45d[J[47d[?12l[?25h[47;1H[?1049l[23;0;0t[?1l>[?2004l[K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git checkout MASTER
+error: pathspec 'MASTER' did not match any file(s) known to git
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git chekc[K[K[K[K[Kls -al branch
+git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is
+	lfs
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git --helkp[K[Kp
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git branch [K
+[?1h=* [32mmain[m[m
+[K[?1l>]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	.rMutation.sage-0.term
+Please commit your changes or stash them before you switch branches.
+Aborting
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git status
+On branch main
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .rMutation.sage-0.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git commit -m "gr[Karbage"
+On branch main
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .rMutation.sage-0.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	.rMutation.sage-0.term
+Please commit your changes or stash them before you switch branches.
+Aborting
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git stast[Kh
+Saved working directory and index state WIP on main: f9b024b Removed zip Files
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git status
+On branch main
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git com[K[K[Kcheckout master
+error: Your local changes to the following files would be overwritten by checkout:
+	.rMutation.sage-0.term
+Please commit your changes or stash them before you switch branches.
+Aborting
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git push [K
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:master
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+To choose either option permanently, see push.default in 'git help config'.
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ git push origin HEAD:master
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 4.96 KiB | 4.96 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: This repository moved. Please use the new location:[K
+remote:   git@github.com:Tucker-UA/Quivers.git[K
+To github.com:Tucker-UA/FiniteNonForks.git
+   b2a3e4f..f9b024b  HEAD -> master
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ [K]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): /home/user/.ssh/id_rsa_ty
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/user/.ssh/id_rsa_ty
+Your public key has been saved in /home/user/.ssh/id_rsa_ty.pub
+The key fingerprint is:
+SHA256:nviesvwTECLBotvygDoEjp36pp33j9Rg6RUrMqq7f+w user@project-6d492194-bced-4aa2-b0cc-23f77ccf5ac4
+The key's randomart image is:
++---[RSA 4096]----+
+| ...             |
+|. o . .          |
+|.. . . ..        |
+|o     .. o       |
+|=+ .o =.S        |
+|*o+. = B..       |
+|o=..  + +.       |
+|+oo.+o.o..       |
+|=O=+E.=**.       |
++----[SHA256]-----+
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ cd ssh-keygen -t rsa -b 4096[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcat id_rsa.pub[Kls[Kcd ~/.ssh>ssh.ssh
+]0;~/.ssh[01;34m~/.ssh[00m$ ls
+authorized_keys  environment  id_rsa  id_rsa.pub  id_rsa_ty  id_rsa_ty.pub  known_hosts
+]0;~/.ssh[01;34m~/.ssh[00m$ cat id_[K[K[K[K[K[K[Klscd ~/.sshssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): id_rsa_vi
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in id_rsa_vi
+Your public key has been saved in id_rsa_vi.pub
+The key fingerprint is:
+SHA256:Gxb6vSMrPGHAuB7WZBKviAs+whcw45cb7MwAQl8u4zI user@project-6d492194-bced-4aa2-b0cc-23f77ccf5ac4
+The key's randomart image is:
++---[RSA 4096]----+
+|                 |
+| ..  .           |
+|. .=o   .        |
+|o+o+*. . .       |
+|=.*B+.. S        |
+|+E=B. oo +       |
+|++O.+o .o .      |
+|o+.*  + . ..     |
+|. o    o.o..     |
++----[SHA256]-----+
+]0;~/.ssh[01;34m~/.ssh[00m$ [K]0;~/.ssh[01;34m~/.ssh[00m$ [K]0;~/.ssh[01;34m~/.ssh[00m$ sh-keygen-[K[K[K[K[K[K[K[K[Ksh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): /home -   e/user/..s  ssh/id_rsa^C
+]0;~/.ssh[01;34m~/.ssh[00m$ ssh-keygen -t rsa -b 4096[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+authorized_keys  id_rsa      id_rsa_ty      id_rsa_vi      id_tclem      known_hosts
+environment      id_rsa.pub  id_rsa_ty.pub  id_rsa_vi.pub  id_tclem.pub
+]0;~/.ssh[01;34m~/.ssh[00m$ rm [K[K[Klsssh-keygen -t rsa -b 4096[C[C[C[C[C[C[C[Cls[Kcd ~/.sshssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): /jomr    homr/ur drt      r/  e/ud drt   de  ser/.ssh/id_rsa_vi
+/home/user/.ssh/id_rsa_vi already exists.
+Overwrite (y/n)? n
+]0;~/.ssh[01;34m~/.ssh[00m$ rm[K[Kld
+ld: no input files
+]0;~/.ssh[01;34m~/.ssh[00m$ ls
+authorized_keys  id_rsa      id_rsa_ty      id_rsa_vi      id_tclem      known_hosts
+environment      id_rsa.pub  id_rsa_ty.pub  id_rsa_vi.pub  id_tclem.pub
+]0;~/.ssh[01;34m~/.ssh[00m$ rm id_rsa_vi if[Kd_rsa_vi.pub
+]0;~/.ssh[01;34m~/.ssh[00m$ rm id_rsa_vi id_rsa_vi.pub[C[C[C[C[C[C[C[Cls[Kdssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): /homr e/ud ser/.ssh/id_rsa) _vi
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/user/.ssh/id_rsa_vi
+Your public key has been saved in /home/user/.ssh/id_rsa_vi.pub
+The key fingerprint is:
+SHA256:xtAJ5+OVcsvHalvo1W+vkxU3koWUS4OGwUgYAMjeTBs user@project-6d492194-bced-4aa2-b0cc-23f77ccf5ac4
+The key's randomart image is:
++---[RSA 4096]----+
+|o.....=.+.o o.o  |
+|.. E . * + + = . |
+|. + o . * = . =  |
+| . +   + * o + o.|
+|        S o o . +|
+|       .   + .  .|
+|          + o .o |
+|         o +  o..|
+|          o   .++|
++----[SHA256]-----+
+]0;~/.ssh[01;34m~/.ssh[00m$ cat id_rsavi.pub
+cat: id_rsavi.pub: No such file or directory
+]0;~/.ssh[01;34m~/.ssh[00m$ ls
+authorized_keys  id_rsa      id_rsa_ty      id_rsa_vi      id_tclem      known_hosts
+environment      id_rsa.pub  id_rsa_ty.pub  id_rsa_vi.pub  id_tclem.pub
+]0;~/.ssh[01;34m~/.ssh[00m$ lscat id_rsavi.pub_vi.pub[C[C[C[C[C[C
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCm4HjmRjMxzNFSxwG3dtUiYlutICbCTQbdkOjKd1HSngFZcq9LlYLkYQVyD3GL8HBwj5y5rCJlcFlMqf+GrZiEQF10QGZVNdv3jBoUOBqOplAzSCYJdt/gwbVeh8e1oAS8P7aPEy3zTtxwyqiTzGPOYTZz4Plz3JPvca04nIcPv8RtyGsewS+k4YlIYn+E2nEi2IUhFJ+ltdAclta/0Vq94nAlbROv8ick1X3egsmDk+5yHb1RlxW42kXuVXjpQYTFWambT1MkUlpjnKw3MS9OMP/Y+GoZq5xfJkXECqROln1+5Erhj/IAoxKI2jgvoNe7XsjF8XXAd654AkDv0IWcXrCzySQL0+5I7R1VBBY52IqWIubXtUsAa1qMqjdfFxV/kzQagZ3GHfP7vR7zZ0o6+1TUHkUOAQFVKn2Ppcfq5aMhawp7U27jMeqQpRawiLISd965dhT8pHUy1VJdog9dXmzH7VhXCEeuh0AAjadXnw2nq99iM/gbKbI7u6Py+EEszF9VhtjdUrm5A1ViKB9HunYNTOGo4Eb/i6tt6/d14x/sPdpfe4YylOkhUi088FvM6+PMr2I1UJUGvhYJVTU8W5s72l8rtifEovjfq90fjG1LHJbiAPix7bkUwurzkgBO+I2vLWs2uPVAZGfumJkCs3nQVG5VhcnXheETSUhUkQ== user@project-6d492194-bced-4aa2-b0cc-23f77ccf5ac4
+]0;~/.ssh[01;34m~/.ssh[00m$ tm [K[K[Krm if[Kd-[K_rsa_vi if[Kd_rsa_vi.pub
+]0;~/.ssh[01;34m~/.ssh[00m$ rm id_rsa_vi id_rsa_vi.pub[C[C[C[C[C[C[C[C[9Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat id_rsavi.pub[C[C[C[C[C[C[C[Cssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): /homr/  e/user/.ssh/if d_rsa_vi
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/user/.ssh/id_rsa_vi
+Your public key has been saved in /home/user/.ssh/id_rsa_vi.pub
+The key fingerprint is:
+SHA256:TPZJwh0sw9LJJ3hIQIe7feCVlK8hpq1wm7r1GK2aeQQ user@project-6d492194-bced-4aa2-b0cc-23f77ccf5ac4
+The key's randomart image is:
++---[RSA 4096]----+
+|   .o+o* +.      |
+|    ..+.%.o.     |
+|     . +=Bo      |
+|  E . ++++..     |
+|   . B +Soo      |
+|  . =.+ o        |
+|   +o+..         |
+|   +==           |
+|  *=o .          |
++----[SHA256]-----+
+]0;~/.ssh[01;34m~/.ssh[00m$ ls
+authorized_keys  id_rsa      id_rsa_ty      id_rsa_vi      id_tclem      known_hosts
+environment      id_rsa.pub  id_rsa_ty.pub  id_rsa_vi.pub  id_tclem.pub
+]0;~/.ssh[01;34m~/.ssh[00m$ cat id_rsa_vi.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCgcQPOJ/xKRokkJxZ8ZTL7/TL+5hMfY3IMt4WFZzme6cVjW82vewunK5WZwRaCjDIqZcF83IotGa42VanPwwA0bsl2K+F4yLJrIcJauGT62gGt6s3POLswfgwc5+qaMJl6+jGivVhkMLVbE4HgMg5Qnyxg9BHuAqjJg3dhM/cmGdzcWfZZRnsv+/iGA2iFKtNYuCKASCqyBz5sb0x4CDH4bBnkeEkM2/BDdyjnYNM//tPLL8cTU1KSvIpvEtxcX7eS+THcOaSx6GXt8aIEsGVZuNYRs0jVGpKy9BtoNe6i2iFbwJ2YQvmJ/ieTPv5vEuS/ItNHHqTRp8l/1YbB5W/RxS+UHqqgZhG6kkm+G7WI63DggQxpEZWHKjW2fc1aWxJCpkhdWc8198dW4lsUKLz4BKH4krlrDIVhLH+M3+C218bdy3rpgsDTGub/wQJtGREqjGC0ePmRv78vViSJ5+oIoMz3DCJy7GeQ0g+N/IfOufobpJwXCU95ErxdT++DQwQAMVRSTuoVopXoH4pw0lc72NZGQq3ghpPQR0nLweLBfIwbVtn2te5DMzStDOL4Sri4PuAFPthGlh34C5xr++EPXB8HHZV8WpVXNq1UkB5PaZl2qDlXAOTPecYlTadYRucV5JbK2cKr7HiyZFv0WQvsohQ6BtCzhjMUkPqqkjd7Dw== user@project-6d492194-bced-4aa2-b0cc-23f77ccf5ac4
+]0;~/.ssh[01;34m~/.ssh[00m$ ssh -T git@github.com
+Hi slama0077! You've successfully authenticated, but GitHub does not provide shell access.
+]0;~/.ssh[01;34m~/.ssh[00m$ 
