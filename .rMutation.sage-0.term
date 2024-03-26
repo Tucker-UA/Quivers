@@ -482,4 +482,21 @@ environment      id_rsa.pub  id_rsa_ty.pub  id_rsa_vi.pub  id_tclem.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCgcQPOJ/xKRokkJxZ8ZTL7/TL+5hMfY3IMt4WFZzme6cVjW82vewunK5WZwRaCjDIqZcF83IotGa42VanPwwA0bsl2K+F4yLJrIcJauGT62gGt6s3POLswfgwc5+qaMJl6+jGivVhkMLVbE4HgMg5Qnyxg9BHuAqjJg3dhM/cmGdzcWfZZRnsv+/iGA2iFKtNYuCKASCqyBz5sb0x4CDH4bBnkeEkM2/BDdyjnYNM//tPLL8cTU1KSvIpvEtxcX7eS+THcOaSx6GXt8aIEsGVZuNYRs0jVGpKy9BtoNe6i2iFbwJ2YQvmJ/ieTPv5vEuS/ItNHHqTRp8l/1YbB5W/RxS+UHqqgZhG6kkm+G7WI63DggQxpEZWHKjW2fc1aWxJCpkhdWc8198dW4lsUKLz4BKH4krlrDIVhLH+M3+C218bdy3rpgsDTGub/wQJtGREqjGC0ePmRv78vViSJ5+oIoMz3DCJy7GeQ0g+N/IfOufobpJwXCU95ErxdT++DQwQAMVRSTuoVopXoH4pw0lc72NZGQq3ghpPQR0nLweLBfIwbVtn2te5DMzStDOL4Sri4PuAFPthGlh34C5xr++EPXB8HHZV8WpVXNq1UkB5PaZl2qDlXAOTPecYlTadYRucV5JbK2cKr7HiyZFv0WQvsohQ6BtCzhjMUkPqqkjd7Dw== user@project-6d492194-bced-4aa2-b0cc-23f77ccf5ac4
 ]0;~/.ssh[01;34m~/.ssh[00m$ ssh -T git@github.com
 Hi slama0077! You've successfully authenticated, but GitHub does not provide shell access.
-]0;~/.ssh[01;34m~/.ssh[00m$ 
+]0;~/.ssh[01;34m~/.ssh[00m$ ls
+authorized_keys  id_rsa      id_rsa_ty      id_rsa_vi      id_tclem      known_hosts
+environment      id_rsa.pub  id_rsa_ty.pub  id_rsa_vi.pub  id_tclem.pub
+]0;~/.ssh[01;34m~/.ssh[00m$ cd ..
+]0;~[01;34m~[00m$ ls
+2022-09-09-194033.term  [0m[01;34mFiniteNonForks[0m  ssh  tclem.term
+]0;~[01;34m~[00m$ cd Finiti[KeNonForks/
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ ls [K[K[Kc=[K[Kgit commit[K[K[K[K[K=stat[K[K[K[K[K[Kstatus'[K
+On branch main
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .rMutation.sage-0.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/FiniteNonForks[01;34m~/FiniteNonForks[00m$ a
